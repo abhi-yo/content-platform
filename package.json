@@ -2,8 +2,9 @@
   "name": "content-platform",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
